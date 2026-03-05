@@ -1,6 +1,6 @@
 # Scaffale
 
-Diário de leituras pessoal. Pesquise livros, organize sua estante e registre suas impressões.
+Diário de leituras pessoal
 
 🔗 **[scaffalearthur.vercel.app](https://scaffalearthur.vercel.app)**
 
@@ -198,5 +198,3 @@ Acesse [http://localhost:5173](http://localhost:5173)
 | GET | `/api/search?q=` | Buscar livros na Open Library | ✓ |
 
 ---
-
-*Feito com ⚽︎ no Brasil*
