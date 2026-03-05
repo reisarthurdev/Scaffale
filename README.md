@@ -2,8 +2,6 @@
 
 Diário de leituras pessoal
 
-🔗 **[scaffalearthur.vercel.app](https://scaffalearthur.vercel.app)**
-
 ---
 
 ## Tecnologias
