@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: justsans;
+  src: url('/font/justSans.woff') format('woff');
+}
+
+* {
+  transition: color .4s, background-color .4s;
+  font-family: justsans, sans-serif;
+}
+
+:root {
+  --bg: #FFF;
+  --bg-main: #F4F4F4;
+  --text: #0A0A0A;
+  --muted: #62748E;
+  --card-bg: #FFF;
+  --navbar-scrolled: rgba(255, 255, 255, 0.4);
+}
+
+body.dark {
+  --bg: #0A0A0A;
+  --bg-main: #262626;
+  --text: #E5E5E5;
+  --muted: #ABABAB;
+  --card-bg: #171717;
+  --navbar-scrolled: rgba(0, 0, 0, 0.4);
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: var(--bg);
+  color: var(--text);
+}
